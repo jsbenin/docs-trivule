@@ -1,14 +1,54 @@
-<h1 align="center">Trivule Documentation</h1>
+# Docs - Trivule
 
 <p align="center">
   <img src="icon.png" alt="Trivule Icon" width="100">
 </p>
 
+<p align="center">
+  Professional documentation for Trivule, a user-friendly JavaScript library for HTML form validation.
+</p>
+
+<p align="center">
+  <a href="https://trivule.com">View Online</a> •
+  <a href="https://github.com/jsbenin/trivule">GitHub</a> •
+  <a href="#contributing">Contributing</a>
+</p>
+
+## About
+
 Trivule is a user-friendly JavaScript library for HTML form validation. It allows you to quickly add validation rules to your form fields using custom HTML attributes, without the need to write additional JavaScript code. Trivule's custom HTML attributes are easy to understand and use, enabling you to quickly set up a robust validation system without spending a lot of time creating custom validation functions or writing complex JavaScript code.
 
-This is the documentation site for Trivule, built with Next.js and [Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+This documentation site is built with Next.js and [Fumadocs](https://github.com/fuma-nama/fumadocs), providing a seamless experience for developers and contributors.
 
-Run development server:
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 18 or higher)
+- npm, pnpm, or yarn
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-repo/trivule-docs.git
+cd trivule-docs
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+pnpm install
+# or
+yarn install
+```
+
+### Development
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -18,14 +58,9 @@ pnpm dev
 yarn dev
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Explore
-
-In the project, you can see:
-
-- `lib/source.ts`: Code for content source adapter, [`loader()`](https://fumadocs.dev/docs/headless/source-api) provides the interface to access your content.
-- `lib/layout.shared.tsx`: Shared options for layouts, optional but preferred to keep.
+## Project Structure
 
 | Route                     | Description                                            |
 | ------------------------- | ------------------------------------------------------ |
@@ -33,18 +68,31 @@ In the project, you can see:
 | `app/docs`                | The documentation layout and pages.                    |
 | `app/api/search/route.ts` | The Route Handler for search.                          |
 
-### Fumadocs MDX
+Key files:
+- `lib/source.ts`: Content source adapter using Fumadocs API.
+- `lib/layout.shared.tsx`: Shared layout options.
+- `source.config.ts`: Configuration for MDX and frontmatter.
 
-A `source.config.ts` config file has been included, you can customise different options like frontmatter schema.
+## Contributing
 
-Read the [Introduction](https://fumadocs.dev/docs/mdx) for further details.
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
 
-## Learn More
+### Development Workflow
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Make your changes
+4. Run tests and linting: `npm run lint`
+5. Commit your changes: `git commit -m "Add your message"`
+6. Push to your branch: `git push origin feature/your-feature`
+7. Open a Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
+## Resources
+
+- [Trivule Library](https://trivule.com)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Fumadocs](https://fumadocs.vercel.app)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
