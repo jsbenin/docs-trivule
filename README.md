@@ -1,7 +1,8 @@
 # docs-trivule
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+Trivule is a user-friendly JavaScript library for HTML form validation. It allows you to quickly add validation rules to your form fields using custom HTML attributes, without the need to write additional JavaScript code. Trivule's custom HTML attributes are easy to understand and use, enabling you to quickly set up a robust validation system without spending a lot of time creating custom validation functions or writing complex JavaScript code.
+
+This is the documentation site for Trivule, built with Next.js and [Create Fumadocs](https://github.com/fuma-nama/fumadocs).
 
 Run development server:
 
