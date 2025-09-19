@@ -32,7 +32,7 @@ This documentation site is built with Next.js and [Fumadocs](https://github.com/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/trivule-docs.git
+git clone https://github.com/jsbenin/trivule-docs.git
 cd trivule-docs
 ```
 
