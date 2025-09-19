@@ -25,7 +25,7 @@ This documentation site is built with Next.js and [Fumadocs](https://github.com/
 ### Prerequisites
 
 - Node.js (version 18 or higher)
-- npm, pnpm, or yarn
+- pnpm (only package manager supported; others will be rejected)
 
 ### Installation
 
@@ -39,11 +39,7 @@ cd trivule-docs
 Install dependencies:
 
 ```bash
-npm install
-# or
 pnpm install
-# or
-yarn install
 ```
 
 ### Development
@@ -51,11 +47,7 @@ yarn install
 Run the development server:
 
 ```bash
-npm run dev
-# or
 pnpm dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -82,7 +74,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
 3. Make your changes
-4. Run tests and linting: `npm run lint`
+4. Run tests and linting: `pnpm lint`
 5. Commit your changes: `git commit -m "Add your message"`
 6. Push to your branch: `git push origin feature/your-feature`
 7. Open a Pull Request
