@@ -1,4 +1,4 @@
-# Trivule
+<h1 align="center">Trivule Documentation</h1>
 
 <p align="center">
   <img src="icon.png" alt="Trivule Icon" width="100">
